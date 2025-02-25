@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
@@ -10,13 +11,14 @@
 }
 
 :root {
-    --cor0: #f17468;
-    --cor1: #F2594B;
-    --cor2: #D92818;
-    --cor3: #902218;
-    --cor4: #62150e;
-    --cor5: #F4D06F;
-    --cor6: #F29F05;
+    --cor0: #EEEEEE;
+    --cor1: #7ea16b;
+    --cor2: #658653;
+    --cor3: #3c5233;
+    --cor4: #264027;
+    --cor5: #152516;
+    --cor6: #4C191B;
+    --cor7: #220C10;
 
     --fonte-padrao: 'Metamorphous', Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Enchanted Land', 'Times New Roman', Times, serif;
@@ -29,19 +31,19 @@
 }
 
 body {
-    background-color: var(--cor4);
+    background-color: var(--cor5);
     font-family: var(--fonte-padrao);
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
 
 header > h1 {
-    color: var(--cor6);
+    color: var(--cor1);
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 4em;
@@ -50,7 +52,7 @@ header > h1 {
 }
 
 header > p {
-    color: var(--cor6);
+    color: var(--cor1);
     font-family: var(--fonte-destaque2);
     font-size: 1.2em;
     max-width: 600px;
@@ -62,14 +64,14 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     padding: 10px;
     text-align: center;
 }
 
 nav > a {
-    color: var(--cor0);
+    color: var(--cor1);
     font-family: var(--fonte-destaque);
     font-size: 1.5em;
     padding: 5px;
@@ -85,8 +87,9 @@ nav > a:hover {
     padding: 10px;
 }
 
+
 main {
-    background-color: white;
+    background-color: var(--cor0);
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -100,14 +103,14 @@ main {
 }
 
 main h1 {
-    color: var(--cor6);
+    color: var(--cor3);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     text-align: center;
 }
 
 main h2 {
-    color: var(--cor5);
+    color: var(--cor2);
     font-family: var(--fonte-destaque);
     font-size: 2.5em;
     text-align: center;
@@ -115,7 +118,7 @@ main h2 {
 }
 
 main h3 {
-    color: var(--cor5);
+    color: var(--cor3);
     font-family: var(--fonte-destaque);
     font-size: 2em;
     text-align: center;
@@ -129,7 +132,7 @@ main p {
 }
 
 footer {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     font-family: var(--fonte-padrao);
     color: white;
     text-align: center;
@@ -160,10 +163,10 @@ footer {
 }
 
 #indice li {
-    color: var(--cor6);
+    color: var(--cor1);
 }
 
 #indice li:hover {
-    color: var(--cor5);
+    color: var(--cor4);
     text-decoration: underline;
 }
